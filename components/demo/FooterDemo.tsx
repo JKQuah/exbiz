@@ -74,7 +74,7 @@ export default function FooterDemo() {
             of this site may be reproduced without permission.
           </p>
         </div>
-        <div className="w-full md:w-auto">
+        <div className="w-full md:w-auto px-6">
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-4 md:flex md:gap-12 lg:gap-16">
             {footerItems.map((item, index) => (
               <div className="min-w-[120px]" key={index}>

@@ -25,7 +25,7 @@ const items = [
 
 export default function AccordionTabsDemo() {
   return (
-    <div className="max-container mt-20">
+    <div className="max-container mt-20 mx-4 md:mx-auto">
       <AppTitle className="text-center">Frequently Asked Question</AppTitle>
       <Accordion
         type="single"

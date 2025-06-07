@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function AboutPage() {
   return (
-    <div className="max-container py-20 px-4 md:px-8 lg:px-10">
+    <div className="max-container py-20 px-4 md:px-8 lg:px-10 space-y-4 md:space-x-0">
       <AppTitle>About Us</AppTitle>
       <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
         Startup has been established on the market for the past 2 years.

@@ -9,7 +9,7 @@ export default function OutlineButton({
   return (
     <Button
       variant={"outline"}
-      className="text-xl font-bold rounded-full p-8 bg-white border-primary text-primary z-10 hover:bg-primary hover:text-white"
+      className="text-xl font-bold rounded-full p-6 md:p-8 bg-white border-primary text-primary z-10 hover:bg-primary hover:text-white w-full"
     >
       {children}
     </Button>

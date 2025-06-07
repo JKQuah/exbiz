@@ -19,7 +19,7 @@ export default function ContactPage() {
           width={2000}
           height={1000}
           alt="contact-us"
-          className="rounded-md w-full h-full object-cover"
+          className="rounded-lg w-full h-full object-cover"
         />
         <div className="mx-auto text-center w-full">
           <h1 className="text-3xl font-bold sm:text-4xl">Get In Touch</h1>
@@ -37,8 +37,18 @@ export default function ContactPage() {
                   <div className="grid gap-4 lg:gap-6">
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:gap-6">
                       <div className="text-left">
+                        <Label htmlFor="pronoun" className="mb-2">
+                          Pronoun
+                        </Label>
+                        <Input
+                          type="text"
+                          id="pronoun"
+                          placeholder="Mr/Mrs/Miss"
+                        />
+                      </div>
+                      <div className="text-left">
                         <Label htmlFor="fullname" className="mb-2">
-                          Name
+                          Name *
                         </Label>
                         <Input
                           type="text"
@@ -50,7 +60,7 @@ export default function ContactPage() {
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:gap-6">
                       <div className="text-left">
                         <Label htmlFor="email" className="mb-2">
-                          Email
+                          Email *
                         </Label>
                         <Input
                           type="email"
@@ -60,18 +70,18 @@ export default function ContactPage() {
                       </div>
                       <div className="text-left">
                         <Label htmlFor="phone" className="mb-2">
-                          Phone Number
+                          Phone Number *
                         </Label>
                         <Input
                           type="tel"
                           id="phone"
-                          placeholder="Enter your phone"
+                          placeholder="Enter your phone (016-12345678)"
                         />
                       </div>
                     </div>{" "}
                     <div className="text-left">
                       <Label htmlFor="message" className="mb-2">
-                        Details
+                        Description
                       </Label>
                       <Textarea
                         id="message"
@@ -115,7 +125,7 @@ export default function ContactPage() {
               We&apos;re here to help with any questions.
             </p>
             <p className="text-muted-foreground mt-1">
-              <strong>Business Hours: </strong> Mon - Fri, 9 AM - 6 PM MYT
+              <strong>Mon - Fri, 9 AM - 6 PM MYT</strong>
             </p>
             <p className="text-primary mt-5 inline-flex items-center gap-x-1 font-medium">
               Contact support

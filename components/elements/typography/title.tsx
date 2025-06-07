@@ -11,7 +11,7 @@ export default function AppTitle({
   return (
     <h2
       className={cn(
-        "max-w-7xl pl-4 md:pl-0 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans",
+        "max-w-7xl pl-0 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans",
         className
       )}
     >

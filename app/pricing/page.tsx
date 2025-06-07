@@ -214,7 +214,7 @@ export default function PricingPage() {
         <ComparePlanTable />
       </div>
 
-      <div className="max-container flex-row-center my-20">
+      <div className="max-container flex-row-center my-20 mx-4 md:mx-auto">
         <Card className="w-full max-w-md">
           <CardHeader className="text-center">
             <CardTitle className="text-xl">Need help choosing?</CardTitle>
