@@ -13,7 +13,7 @@ export default function Home() {
   const message = "I am interested to signup a business plan with you.";
 
   return (
-    <div className="relative">
+    <div>
       <BackgroundLinesDemo />
       <AppleCardsCarouselDemo />
 
