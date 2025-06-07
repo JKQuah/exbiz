@@ -2,7 +2,7 @@
 
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import AppTitle from "../elements/typography/title";
-import { MarqueeDemo } from "./MarqueDemo";
+// import { MarqueeDemo } from "./MarqueDemo";
 
 export function AnimatedTestimonialsDemo() {
   const testimonials = [
@@ -46,7 +46,7 @@ export function AnimatedTestimonialsDemo() {
     <div className="max-container mt-20">
       <AppTitle className="text-center">Our Testimonial</AppTitle>
       <AnimatedTestimonials testimonials={testimonials} />
-      <MarqueeDemo />
+      {/* <MarqueeDemo /> */}
     </div>
   );
 }
