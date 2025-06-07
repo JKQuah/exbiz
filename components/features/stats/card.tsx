@@ -1,4 +1,3 @@
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { HandCoins, Handshake, Users } from "lucide-react";
 
 export default function StatsCard() {
