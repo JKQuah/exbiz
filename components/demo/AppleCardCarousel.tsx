@@ -12,7 +12,7 @@ export function AppleCardsCarouselDemo() {
 
   return (
     <div className="w-full h-full py-20">
-      <AppTitle>Get to know our services.</AppTitle>
+      <AppTitle className="ml-4 md:ml-auto">Get to know our services.</AppTitle>
       <Carousel items={cards} />
     </div>
   );

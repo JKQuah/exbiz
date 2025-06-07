@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${cabin.variable}  antialiased bg-white`}>
+      <body className={`${cabin.variable}  antialiased bg-white text-black`}>
         <NavbarDemo />
         {children}
         <FooterDemo />
