@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Cabin } from "next/font/google";
 import "./globals.css";
-import { NavbarDemo } from "@/components/demo/NavbarDemo";
-import FooterDemo from "@/components/demo/FooterDemo";
+// import { NavbarDemo } from "@/components/demo/NavbarDemo";
+// import FooterDemo from "@/components/demo/FooterDemo";
 
 const cabin = Cabin({
   variable: "--font-cabin",
@@ -22,9 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${cabin.variable}  antialiased bg-white text-black`}>
-        <NavbarDemo />
+        {/* <NavbarDemo /> */}
         {children}
-        <FooterDemo />
+        {/* <FooterDemo /> */}
       </body>
     </html>
   );
